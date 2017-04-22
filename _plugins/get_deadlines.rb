@@ -17,9 +17,9 @@ module Get_Deadlines
 
       if series
         for name, url in series do
-          data << {
-              :name  => name,
-              :dates => get_dates_for_latest(url) }
+          dates = get_dates_for_latest(url)
+          dates[:name] = name
+          data << dates
         end
       end
 
@@ -50,6 +50,8 @@ module Get_Deadlines
                   :dates => dates}
         end
       end
+
+      {}
     end
 
     def get_dates_from_event(event_url)
