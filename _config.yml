@@ -1,1 +1,23 @@
 theme: jekyll-theme-slate
+
+safe: false
+keep_files: ["deadlines.json"]
+
+deadlines:
+  data_file: _site/deadlines.json
+  series:
+    ICOOOLPS:        http://conf.researchr.org/series/ICOOOLPS
+    Meta:            http://conf.researchr.org/series/META
+    DLS:             http://conf.researchr.org/series/DLS
+    "<Programming>": http://conf.researchr.org/series/programming
+    "Onward!":       http://conf.researchr.org/series/Onward
+    POPL:            http://conf.researchr.org/series/POPL
+    PPoPP:           http://conf.researchr.org/series/PPoPP
+    VMIL:            http://conf.researchr.org/series/VMIL
+    PLDI:            http://conf.researchr.org/series/pldi
+    CC:              http://conf.researchr.org/series/CC
+    VEE:             http://conf.researchr.org/series/VEE
+#   ECOOP:           http://conf.researchr.org/series/ECOOP
+  calls:
+    ECOOP:  http://2017.ecoop.org/track/ecoop-2017-papers
+    OOPSLA: http://2017.splashcon.org/track/splash-2017-OOPSLA
