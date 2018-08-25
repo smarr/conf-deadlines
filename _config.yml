@@ -12,6 +12,12 @@ theme: jekyll-theme-slate
 safe: false
 keep_files: ["deadlines.json"]
 
+exclude:
+  - Makefile
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+
 deadlines:
   data_file: _site/deadlines.json
   events:

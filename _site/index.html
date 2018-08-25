@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <meta name="description" content="CS Conference Calendar : A selection of Computer Science conferences.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=1e8d3114170ddc2aac282647b7cb1818721c475d">
+
+    <title>CS Conference Calendar</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="http://github.com/smarr/conf-deadlines">View on GitHub</a>
+
+          <h1 id="project_title">CS Conference Calendar</h1>
+          <h2 id="project_tagline">A selection of Computer Science conferences.</h2>
+
+          
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="/assets/js/conf-deadlines.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" />
+
+<!-- <script src="/assets/js/vis.min.js"></script> -->
+<!-- <link href="/assets/js/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" /> -->
+
+<style>
+.vis-item {
+  font-size: 8pt;
+}
+.vis-item .vis-item-content {
+  padding:0;
+}
+
+.vis-item.vis-line {
+  display:none;
+}
+
+#visualization {
+  width: 200%;
+  margin-left: -50%;
+}
+</style>
+
+<div id="visualization"></div>
+
+<p><br /><br /><br /><br /></p>
+
+<table class="deadlines" style="width:100%">
+<thead>
+<tr>
+ <th></th>
+ <th>Rank</th>
+</tr>
+</thead>
+<tbody id="deadlines">
+</tbody>
+</table>
+
+<p>The rank is not based on any concrete data/metric/assessment, but purely a subjective categorization.</p>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p class="copyright">CS Conference Calendar maintained by <a href="http://github.com/smarr">smarr</a></p>
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+  </body>
+</html>
