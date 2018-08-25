@@ -10,6 +10,11 @@ github_username:  smarr
 theme: jekyll-theme-slate
 
 safe: false
+
+baseurl: "/conf-deadlines" # the subpath of your site, e.g. /blog
+url: "https://smarr.github.io" # the base hostname & protocol for your site
+
+
 keep_files: ["deadlines.json"]
 
 exclude:
@@ -19,7 +24,7 @@ exclude:
   - Gemfile.lock
 
 deadlines:
-  data_file: _site/deadlines.json
+  data_file: docs/deadlines.json
   events:
     AGERE:
       series: https://conf.researchr.org/series/AGERE
