@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="{{ site.url }}/assets/js/conf-deadlines.js"></script>
 
-You can use the [editor on GitHub](https://github.com/smarr/conf-deadlines/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" />
+<!-- <script src="{{ site.url }}/assets/js/vis.min.js"></script> -->
+<!-- <link href="{{ site.url }}/assets/js/vis-timeline-graph2d.min.css" rel="stylesheet" type="text/css" /> -->
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<style>
+.vis-item {
+  font-size: 8pt;
+}
+.vis-item .vis-item-content {
+  padding:0;
+}
 
-### Markdown
+.vis-item.vis-line {
+  display:none;
+}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#visualization {
+  width: 200%;
+  margin-left: -50%;
+}
+</style>
 
-```markdown
-Syntax highlighted code block
+<div id="visualization"></div>
 
-# Header 1
-## Header 2
-### Header 3
+<br/><br/><br/><br/>
 
-- Bulleted
-- List
+<table class="deadlines" style="width:100%">
+<thead>
+<tr>
+ <th></th>
+ <th>Rank</th>
+</tr>
+</thead>
+<tbody id="deadlines">
+</tbody>
+</table>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/smarr/conf-deadlines/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The rank is not based on any concrete data/metric/assessment, but purely a subjective categorization.

@@ -1,3 +1,12 @@
+title: CS Conference Calendar
+description: A selection of Computer Science conferences.
+
+author:
+  name: Stefan Marr
+
+twitter_username: smarr
+github_username:  smarr
+
 theme: jekyll-theme-slate
 
 safe: false
@@ -5,19 +14,110 @@ keep_files: ["deadlines.json"]
 
 deadlines:
   data_file: _site/deadlines.json
-  series:
-    ICOOOLPS:        http://conf.researchr.org/series/ICOOOLPS
-    Meta:            http://conf.researchr.org/series/META
-    DLS:             http://conf.researchr.org/series/DLS
-    "<Programming>": http://conf.researchr.org/series/programming
-    "Onward!":       http://conf.researchr.org/series/Onward
-    POPL:            http://conf.researchr.org/series/POPL
-    PPoPP:           http://conf.researchr.org/series/PPoPP
-    VMIL:            http://conf.researchr.org/series/VMIL
-    PLDI:            http://conf.researchr.org/series/pldi
-    CC:              http://conf.researchr.org/series/CC
-    VEE:             http://conf.researchr.org/series/VEE
-#   ECOOP:           http://conf.researchr.org/series/ECOOP
-  calls:
-    ECOOP:  http://2017.ecoop.org/track/ecoop-2017-papers
-    OOPSLA: http://2017.splashcon.org/track/splash-2017-OOPSLA
+  events:
+    AGERE:
+      series: https://conf.researchr.org/series/AGERE
+      rank:   D
+    ICOOOLPS:
+      series: https://conf.researchr.org/series/ICOOOLPS
+      rank:   D
+    MoreVMs:
+      series: https://2019.programming-conference.org/series/MoreVMs
+      rank:   D
+    Meta:
+      series: https://conf.researchr.org/series/META
+      rank:   D
+    DLS:
+      series: https://conf.researchr.org/series/DLS
+      rank:   B
+    POPL:
+      call:   https://popl19.sigplan.org/track/POPL-2019-Research-Papers
+      rank:   A
+
+    PPoPP:
+      series: https://conf.researchr.org/series/PPoPP
+      rank:   B
+
+    VMIL:
+      series: https://conf.researchr.org/series/VMIL
+      rank:   D
+
+    PLDI:
+      series: https://conf.researchr.org/series/pldi
+      rank:   A
+
+    VEE:
+      series: https://conf.researchr.org/series/VEE
+      rank:   B
+
+    ECOOP:
+      call:  https://2019.ecoop.org/track/ecoop-2019-papers
+      rank:  A
+
+    OOPSLA:
+       call: https://2018.splashcon.org/track/splash-2018-OOPSLA
+       rank: A
+
+    "<Programming>":
+        # call: https://2019.programming-conference.org/track/programming-2019-papers
+        url: https://2019.programming-conference.org/track/programming-2019-papers
+        rank: B
+        Paper:        2018-10-01
+        Notification: 2019-01-07
+        Camera Ready: 2019-01-15
+        Event:        2019-04-01
+
+    ICSE:
+        call: https://2019.icse-conferences.org/track/icse-2019-Technical-Papers
+        rank: A
+
+    ICFP:
+        call: https://icfp18.sigplan.org/track/icfp-2018-papers
+        rank: A
+
+    "Onward!":
+      call: https://2018.onward-conference.org/track/onward-2018-papers
+      rank: B
+
+    ManLang:
+      url: http://ssw.jku.at/manlang18/
+      rank: B
+      Abstract:     2018-05-04
+      Paper:        2018-05-11
+      Notification: 2018-07-06
+      Camera Ready: 2018-08-03
+      Event:        2018-09-12
+
+    EuroSys:
+      url: https://www.eurosys2019.org/
+      rank: A
+      Abstract:     2018-09-24
+      Paper:        2018-10-01
+      Notification: 2018-11-21
+      Event:        2019-03-25
+
+    ASPLOS:
+      url: https://asplos-conference.org/
+      rank: A
+      Abstract:     2018-07-31
+      Paper:        2018-08-07
+      Notification: 2018-11-07
+      Camera Ready: 2019-01-14
+      Event:        2019-04-13
+
+    CGO:
+      url: http://cgo.org/cgo2019/
+      rank: B
+      Abstract:     2018-08-31
+      Paper:        2018-09-07
+      Notification: 2018-10-30
+      Event:        2019-02-16
+
+    CC:
+      url: https://cc-conference.github.io/18/
+      rank:   B
+      Abstract:     2018-11-03
+      Paper:        2018-11-07
+      Notification: 2019-01-01
+      Camera Ready: 2019-01-15
+      Event:        2019-02-16

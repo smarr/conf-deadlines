@@ -1,5 +1,5 @@
 build:
-	bundle exec jekyll build --future true
+	bundle-2.4 exec jekyll build --future true
 
 serve:
-	bundle exec jekyll serve --config _config.yml,_config_local.yml
+	bundle-2.4 exec jekyll serve --config _config.yml,_config_local.yml
