@@ -5,24 +5,24 @@
   margin: 0; }
 
 .highlight .cm {
-  color: #999988;
+  color: #777772;
   font-style: italic; }
 
 .highlight .cp {
-  color: #999999;
+  color: #797676;
   font-weight: bold; }
 
 .highlight .c1 {
-  color: #999988;
+  color: #777772;
   font-style: italic; }
 
 .highlight .cs {
-  color: #999999;
+  color: #797676;
   font-weight: bold;
   font-style: italic; }
 
 .highlight .c, .highlight .cd {
-  color: #999988;
+  color: #777772;
   font-style: italic; }
 
 .highlight .err {
@@ -41,7 +41,7 @@
   color: #aa0000; }
 
 .highlight .gh {
-  color: #999999; }
+  color: #797676; }
 
 .highlight .gi {
   color: #000000;
@@ -148,7 +148,7 @@
   color: #008080; }
 
 .highlight .bp {
-  color: #999999; }
+  color: #797676; }
 
 .highlight .nb {
   color: #0086B3; }
@@ -293,7 +293,7 @@ footer p {
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color: #0F79D0;
   text-shadow: none;
   transition: color 0.5s ease;
   transition: text-shadow 0.5s ease;
@@ -313,7 +313,7 @@ footer a {
   color: #F2F2F2;
   text-decoration: underline; }
 
-em {
+em, cite {
   font-style: italic; }
 
 strong {
@@ -341,7 +341,6 @@ p img {
   border: none; }
 
 pre, code {
-  width: 100%;
   color: #222;
   background-color: #fff;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -351,7 +350,6 @@ pre, code {
   -webkit-border-radius: 2px; }
 
 pre {
-  width: 100%;
   padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: auto; }
@@ -452,7 +450,7 @@ Full-Width Styles
   background: -webkit-linear-gradient(top, #373737, #212121);
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121); }
+  background: linear-gradient(to top, #373737, #212121); }
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px; }
@@ -555,6 +553,40 @@ Small Device Styles
     font-size: 12px; }
 
   code, pre {
-    min-width: 320px;
-    max-width: 480px;
+    font-size: 11px; } }
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 14px; }
+
+  #downloads {
+    display: none; }
+
+  .inner {
+    min-width: 240px;
+    max-width: 320px; }
+
+  #project_title {
+    font-size: 28px; }
+
+  h1 {
+    font-size: 24px; }
+
+  h2 {
+    font-size: 21px; }
+
+  h3 {
+    font-size: 18px; }
+
+  h4 {
+    font-size: 16px; }
+
+  h5 {
+    font-size: 14px; }
+
+  h6 {
+    font-size: 12px; }
+
+  code, pre {
+    min-width: 240px;
+    max-width: 320px;
     font-size: 11px; } }
