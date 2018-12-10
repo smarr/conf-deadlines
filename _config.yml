@@ -65,8 +65,12 @@ deadlines:
       call:  https://2019.ecoop.org/track/ecoop-2019-papers
       rank:  A
 
-    OOPSLA:
-       call: https://2018.splashcon.org/track/splash-2018-OOPSLA
+    "OOPSLA'18":
+       call: https://2018.splashcon.org/track/splash-2018-oopsla
+       rank: A
+
+    "OOPSLA'19":
+       call: https://2019.splashcon.org/track/splash-2019-oopsla
        rank: A
 
     "<Programming>":
@@ -86,8 +90,11 @@ deadlines:
         call: https://icfp18.sigplan.org/track/icfp-2018-papers
         rank: A
 
-    "Onward!":
+    "Onward!'18":
       call: https://2018.onward-conference.org/track/onward-2018-papers
+      rank: B
+    "Onward!'19":
+      call: https://2019.onward-conference.org/track/onward-2019-papers
       rank: B
 
     ManLang:
