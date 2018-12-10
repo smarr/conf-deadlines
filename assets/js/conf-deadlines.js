@@ -109,9 +109,11 @@ function sortEvents(data) {
             return rankCompare;
         }
 
-        let deadlinesCompare = confA.dates[0].date.localeCompare(confB.dates[0].date);
-        if (deadlinesCompare !== 0) {
-            return deadlinesCompare;
+        if (confA.dates[0] !== undefined && confB.dates[0] !== undefined) {
+          let deadlinesCompare = confA.dates[0].date.localeCompare(confB.dates[0].date);
+          if (deadlinesCompare !== 0) {
+              return deadlinesCompare;
+          }
         }
 
         return confA.name.localeCompare(confB.name);
