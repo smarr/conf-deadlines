@@ -54,7 +54,8 @@ deadlines:
       rank:   D
 
     PLDI:
-      series: https://conf.researchr.org/series/pldi
+      # series: https://conf.researchr.org/series/pldi
+      call: https://pldi19.sigplan.org/track/pldi-2019-papers
       rank:   A
 
     VEE:
