@@ -46,8 +46,12 @@ deadlines:
       rank:   A
 
     PPoPP:
-      series: https://conf.researchr.org/series/PPoPP
+      # series: https://conf.researchr.org/series/PPoPP
+      url: https://ppopp20.sigplan.org/track/PPoPP-2020-papers#Call-for-Papers
       rank:   B
+      Paper:        2019-07-31
+      Notification: 2019-11-19
+      Camera Ready: 2020-01-02
 
     VMIL:
       series: https://conf.researchr.org/series/VMIL
