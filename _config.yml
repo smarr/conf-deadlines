@@ -74,21 +74,40 @@ deadlines:
        call: https://2019.splashcon.org/track/splash-2019-oopsla
        rank: A
 
-    "<Programming>":
+    "<Programming> Issue 1":
         # call: https://2019.programming-conference.org/track/programming-2019-papers
         url: https://2019.programming-conference.org/track/programming-2019-papers
         rank: B
-        Paper:        2018-10-01
-        Notification: 2019-01-07
+        Paper:        2020-02-01
+        Notification: 2020-04-01
+        Camera Ready: 2020-05-15
+        Event:        2021-04-01
+
+
+    "<Programming> Issue 2":
+        # call: https://2019.programming-conference.org/track/programming-2019-papers
+        url: https://2019.programming-conference.org/track/programming-2019-papers
+        rank: B
+        Paper:        2020-06-01
+        Notification: 2020-08-01
+        Camera Ready: 2020-09-15
+        Event:        2021-04-01
+
+    "<Programming> Issue 3":
+        # call: https://2019.programming-conference.org/track/programming-2019-papers
+        url: https://2019.programming-conference.org/track/programming-2019-papers
+        rank: B
+        Paper:        2019-10-01
+        Notification: 2019-12-01
         Camera Ready: 2019-01-15
-        Event:        2019-04-01
+        Event:        2020-04-01
 
     ICSE:
         call: https://2019.icse-conferences.org/track/icse-2019-Technical-Papers
         rank: A
 
     ICFP:
-        call: https://icfp18.sigplan.org/track/icfp-2018-papers
+        call: https://icfp19.sigplan.org/track/icfp-2019-papers
         rank: A
 
     "Onward!'18":
@@ -98,14 +117,9 @@ deadlines:
       call: https://2019.onward-conference.org/track/onward-2019-papers
       rank: B
 
-    ManLang:
-      url: http://ssw.jku.at/manlang18/
+    MPLR:
+      url: https://conf.researchr.org/home/mplr-2019
       rank: B
-      Abstract:     2018-05-04
-      Paper:        2018-05-11
-      Notification: 2018-07-06
-      Camera Ready: 2018-08-03
-      Event:        2018-09-12
 
     EuroSys:
       url: https://www.eurosys2019.org/
