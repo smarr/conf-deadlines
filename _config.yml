@@ -27,12 +27,7 @@ deadlines:
   data_file: docs/deadlines.json
   events:
     AGERE:
-      # series: https://conf.researchr.org/series/AGERE
-      url: https://2019.splashcon.org/home/agere-2019
-      rank:   B
-      Paper:        2019-08-02
-      # Notification: 2019-11-19
-      # Camera Ready: 2020-01-02
+      series: https://conf.researchr.org/series/AGERE
       rank:   D
     ICOOOLPS:
       series: https://conf.researchr.org/series/ICOOOLPS
