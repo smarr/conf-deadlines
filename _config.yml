@@ -63,7 +63,11 @@ deadlines:
       series: https://conf.researchr.org/series/VEE
       rank:   B
 
-    ECOOP:
+    "ECOOP'20":
+      call:  https://2020.ecoop.org/track/ecoop-2020-papers
+      rank:  A
+
+    "ECOOP'21":
       call:  https://2021.ecoop.org/track/ecoop-2021-ecoop-research-papers
       rank:  A
 
