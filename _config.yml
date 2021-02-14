@@ -33,7 +33,7 @@ deadlines:
       series: https://conf.researchr.org/series/ICOOOLPS
       rank:   D
     MoreVMs:
-      series: https://2019.programming-conference.org/series/MoreVMs
+      series: https://2021.programming-conference.org/series/MoreVMs
       rank:   D
     Meta:
       series: https://conf.researchr.org/series/META
@@ -54,9 +54,9 @@ deadlines:
       series: https://conf.researchr.org/series/VMIL
       rank:   D
 
-    PLDI:
+    "PLDI'21":
       # series: https://conf.researchr.org/series/pldi
-      call: https://pldi20.sigplan.org/track/pldi-2020-papers
+      call: https://pldi21.sigplan.org/track/pldi-2021-papers
       rank:   A
 
     VEE:
@@ -71,8 +71,8 @@ deadlines:
       call:  https://2021.ecoop.org/track/ecoop-2021-ecoop-research-papers
       rank:  A
 
-    "OOPSLA'20":
-       call: https://2020.splashcon.org/track/splash-2020-oopsla
+    "OOPSLA'21":
+       call: https://2021.splashcon.org/track/splash-2021-oopsla
        rank: A
 
     "<Programming> Issue 1":
@@ -98,18 +98,27 @@ deadlines:
         # call: https://2019.programming-conference.org/track/programming-2019-papers
         url: https://programming-journal.org/timeline/
         rank: B
-        Paper:        2020-10-01
-        Notification: 2020-12-01
-        Camera Ready: 2020-01-15
-        Event:        2021-04-01
+        Paper:        2021-10-01
+        Notification: 2021-12-01
+        Camera Ready: 2022-01-15
+        Event:        2022-04-01
 
-    ICSE:
-        call: https://2020.icse-conferences.org/track/icse-2020-papers
+    "ICSE'21":
+        call: https://conf.researchr.org/track/icse-2021/icse-2021-papers
+        rank: A
+    
+    "ICSE'22":
+        call: https://conf.researchr.org/track/icse-2022/icse-2022-papers
         rank: A
 
-    ICFP:
+    "ICFP'20":
         call: https://icfp20.sigplan.org/track/icfp-2020-papers
         rank: A
+      
+    "ICFP'21":
+        call: https://icfp21.sigplan.org/track/icfp-2021-papers
+        rank: A
+
 
     "Onward!'20":
       call: https://2020.splashcon.org/track/splash-2020-Onward-papers
