@@ -42,117 +42,104 @@ deadlines:
       series: https://conf.researchr.org/series/DLS
       rank:   B
     POPL:
-      call:   https://popl21.sigplan.org/track/POPL-2021-research-papers
+      call:   https://popl22.sigplan.org/track/POPL-2022-popl-research-papers
       rank:   A
 
     PPoPP:
       # series: https://conf.researchr.org/series/PPoPP
-      call: https://ppopp21.sigplan.org/track/PPoPP-2021-main-conference
+      call: https://ppopp22.sigplan.org/track/PPoPP-2022-main-conference
       rank:   B
 
     VMIL:
       series: https://conf.researchr.org/series/VMIL
       rank:   D
 
-    "PLDI'21":
+    "PLDI'22":
       # series: https://conf.researchr.org/series/pldi
-      call: https://pldi21.sigplan.org/track/pldi-2021-papers
+      call: https://pldi22.sigplan.org/track/pldi-2022-pldi
       rank:   A
 
     VEE:
       series: https://conf.researchr.org/series/VEE
       rank:   B
 
-    "ECOOP'20":
-      call:  https://2020.ecoop.org/track/ecoop-2020-papers
+    "ECOOP'22":
+      call:  https://2022.ecoop.org/track/ecoop-2022-papers
       rank:  A
 
-    "ECOOP'21":
-      call:  https://2021.ecoop.org/track/ecoop-2021-ecoop-research-papers
-      rank:  A
-
-    "OOPSLA'21":
-       call: https://2021.splashcon.org/track/splash-2021-oopsla
+    "OOPSLA'22":
+       call: https://2022.splashcon.org/track/splash-2022-oopsla
        rank: A
 
     "<Programming> Issue 1":
         # call: https://2019.programming-conference.org/track/programming-2019-papers
         url: https://programming-journal.org/timeline/
         rank: B
-        Paper:        2021-02-01
-        Notification: 2021-04-01
-        Camera Ready: 2021-05-15
-        Event:        2022-04-01
+        Paper:        2022-02-01
+        Notification: 2022-04-01
+        Camera Ready: 2022-05-15
+        Event:        2023-04-01
 
 
     "<Programming> Issue 2":
         # call: https://2019.programming-conference.org/track/programming-2019-papers
         url: https://programming-journal.org/timeline/
         rank: B
-        Paper:        2021-06-01
-        Notification: 2021-08-01
-        Camera Ready: 2021-09-15
-        Event:        2022-04-01
+        Paper:        2022-06-01
+        Notification: 2022-08-01
+        Camera Ready: 2022-09-15
+        Event:        2023-04-01
 
     "<Programming> Issue 3":
         # call: https://2019.programming-conference.org/track/programming-2019-papers
         url: https://programming-journal.org/timeline/
         rank: B
-        Paper:        2021-10-01
-        Notification: 2021-12-01
-        Camera Ready: 2022-01-15
-        Event:        2022-04-01
+        Paper:        2022-10-01
+        Notification: 2022-12-01
+        Camera Ready: 2023-01-15
+        Event:        2023-04-01
 
-    "ICSE'21":
-        call: https://conf.researchr.org/track/icse-2021/icse-2021-papers
-        rank: A
-    
     "ICSE'22":
         call: https://conf.researchr.org/track/icse-2022/icse-2022-papers
         rank: A
 
-    "ICFP'20":
-        call: https://icfp20.sigplan.org/track/icfp-2020-papers
-        rank: A
-      
-    "ICFP'21":
-        call: https://icfp21.sigplan.org/track/icfp-2021-papers
+    "ICFP'22":
+        call: https://icfp22.sigplan.org/track/icfp-2022-papers
         rank: A
 
 
-    "Onward!'20":
-      call: https://2020.splashcon.org/track/splash-2020-Onward-papers
+    "Onward!'22":
+      call: https://2022.splashcon.org/track/splash-2022-Onward-papers
       rank: B
 
     MPLR:
-      url: https://mplr2020.cs.manchester.ac.uk/
+      url: https://soft.vub.ac.be/mplr22/
       rank: B
-      Paper:        2020-08-12
-      Notification: 2020-09-14
-      Camera Ready: 2020-10-05
-      Event:        2020-11-04
+      Paper:        2022-08-12
+      Notification: 2022-09-14
+      Camera Ready: 2022-10-05
+      Event:        2022-11-04
 
     EuroSys:
-      url: https://2021.eurosys.org/
+      url: https://2022.eurosys.org/
       rank: A
-      Abstract:     2020-10-01
-      Paper:        2020-10-09
-      Notification: 2021-01-20
-      Event:        2021-04-26
+      Abstract:     2021-10-01
+      Paper:        2021-10-09
+      Notification: 2022-01-20
+      Event:        2022-04-05
 
     ASPLOS:
       url: https://asplos-conference.org/
       rank: A
-      Abstract:     2020-08-14
-      Paper:        2020-08-21
-      Notification: 2020-11-19
-      Camera Ready: 2021-02-01
-      Event:        2021-04-01
+      Paper:        2021-08-13
+      Notification: 2021-11-15
+      Camera Ready: 2022-01-17
+      Event:        2022-02-28
 
     CGO:
-      call: https://conf.researchr.org/track/cgo-2021/cgo-2021-papers
+      call: https://conf.researchr.org/track/cgo-2022/cgo-2022-main-conference
       rank: B
 
     CC:
-      call: https://conf.researchr.org/track/CC-2021/cc-research-papers
+      call: https://conf.researchr.org/track/CC-2022/CC-2022-research-papers
       rank:   B
