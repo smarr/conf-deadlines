@@ -5,7 +5,7 @@ author:
   name: Stefan Marr
 
 twitter_username: smarr
-github_username:  smarr
+github_username: smarr
 
 theme: jekyll-theme-slate
 
@@ -13,7 +13,6 @@ safe: false
 
 baseurl: "/conf-deadlines" # the subpath of your site, e.g. /blog
 url: "https://smarr.github.io" # the base hostname & protocol for your site
-
 
 keep_files: ["deadlines.json"]
 
@@ -31,112 +30,110 @@ deadlines:
     #   rank:   D
     ICOOOLPS:
       series: https://conf.researchr.org/series/ICOOOLPS
-      rank:   D
+      rank: D
     MoreVMs:
       series: https://2023.programming-conference.org/series/MoreVMs
-      rank:   D
+      rank: D
     # Meta:
     #   series: https://conf.researchr.org/series/META
     #   rank:   D
     DLS:
       series: https://conf.researchr.org/series/DLS
-      rank:   B
+      rank: B
     POPL:
-      call:   https://popl24.sigplan.org/track/POPL-2024-popl-research-papers
-      rank:   A
+      call: https://popl24.sigplan.org/track/POPL-2024-popl-research-papers
+      rank: A
 
     PPoPP:
       # series: https://conf.researchr.org/series/PPoPP
       call: https://conf.researchr.org/track/PPoPP-2024/PPoPP-2024-papers
-      rank:   B
+      rank: B
 
     VMIL:
       series: https://conf.researchr.org/series/VMIL
-      rank:   D
+      rank: D
 
     "PLDI'24":
       # series: https://conf.researchr.org/series/pldi
       call: https://pldi24.sigplan.org/track/pldi-2024-papers
-      rank:   A
+      rank: A
 
     # VEE:
     #   series: https://conf.researchr.org/series/VEE
     #   rank:   B
 
     "ECOOP'24":
-      call:  https://2024.ecoop.org/track/ecoop-2024-papers
-      rank:  A
+      call: https://2024.ecoop.org/track/ecoop-2024-papers
+      rank: A
 
-    "OOPSLA'24":
-       call: https://2024.splashcon.org/track/splash-2024-oopsla
-       rank: A
+    "OOPSLA'25":
+      call: https://2025.splashcon.org/track/OOPSLA
+      rank: A
 
     "<Programming> Issue 1":
-        # call: https://2019.programming-conference.org/track/programming-2019-papers
-        url: https://programming-journal.org/timeline/
-        rank: B
-        Paper:        2024-02-01
-        Notification: 2024-04-01
-        Camera Ready: 2024-05-22
-        Event:        2025-04-01
-
+      # call: https://2019.programming-conference.org/track/programming-2019-papers
+      url: https://programming-journal.org/timeline/
+      rank: B
+      Paper: 2025-02-01
+      Notification: 2025-04-01
+      Camera Ready: 2025-05-22
+      Event: 2026-04-01
 
     "<Programming> Issue 2":
-        # call: https://2019.programming-conference.org/track/programming-2019-papers
-        url: https://programming-journal.org/timeline/
-        rank: B
-        Paper:        2024-06-01
-        Notification: 2024-08-01
-        Camera Ready: 2024-09-22
-        Event:        2025-04-01
+      # call: https://2019.programming-conference.org/track/programming-2019-papers
+      url: https://programming-journal.org/timeline/
+      rank: B
+      Paper: 2025-06-01
+      Notification: 2025-08-01
+      Camera Ready: 2025-09-22
+      Event: 2025-04-01
 
     "<Programming> Issue 3":
-        # call: https://2019.programming-conference.org/track/programming-2019-papers
-        url: https://programming-journal.org/timeline/
-        rank: B
-        Paper:        2024-10-01
-        Notification: 2024-12-01
-        Camera Ready: 2024-01-22
-        Event:        2025-04-01
+      # call: https://2019.programming-conference.org/track/programming-2019-papers
+      url: https://programming-journal.org/timeline/
+      rank: B
+      Paper: 2025-10-01
+      Notification: 2025-12-01
+      Camera Ready: 2025-01-22
+      Event: 2026-04-01
 
-    "ICSE'24":
-        call: https://conf.researchr.org/track/icse-2024/icse-2024-research-track
-        rank: A
+    "ICSE'25":
+      call: https://conf.researchr.org/track/icse-2025/icse-2025-research-track
+      rank: A
 
     "ICFP'24":
-        call: https://icfp24.sigplan.org/track/icfp-2024-papers
-        rank: A
+      call: https://icfp24.sigplan.org/track/icfp-2024-papers
+      rank: A
 
-
-    "Onward!'23":
-      call: https://2023.splashcon.org/track/splash-2023-Onward-papers
+    "Onward!'24":
+      call: https://2024.splashcon.org/track/splash-2024-Onward-papers
       rank: B
 
     MPLR:
       # url: https://soft.vub.ac.be/mplr22/
       rank: B
-      call: https://2023.splashcon.org/home/mplr-2023
-      # Paper:        2022-08-12
-      # Notification: 2022-09-14
-      # Camera Ready: 2022-10-05
-      # Event:        2022-11-04
+      call: https://2024.splashcon.org/home/mplr-2024
+      # Paper:        2024-08-12
+      # Notification: 2024-09-14
+      # Camera Ready: 2024-10-05
+      # Event:        2024-11-04
 
     EuroSys:
       url: https://2024.eurosys.org/
       rank: A
-      Paper:        2023-10-19
+      Paper: 2023-10-19
       Notification: 2024-02-07
-      Event:        2022-04-22
+      Event: 2022-04-22
 
     ASPLOS:
       url: https://www.asplos-conference.org/asplos2024/
       rank: A
-      Paper:        2023-11-30
+      Paper: 2023-11-30
       Notification: 2024-03-06
-      Event:        2024-05-01
+      Event: 2024-05-01
 
     CGO:
-      call: https://conf.researchr.org/track/cgo-2024/cgo-2024-main-conference
+      call: https://2025.cgo.org/track/cgo-2025-papers
       rank: B
 
     CC:
