@@ -153,3 +153,7 @@ deadlines:
     CC:
       call: https://conf.researchr.org/track/CC-2026/calls
       rank: B
+
+    ISMM:
+      call: https://conf.researchr.org/home/ismm-2025
+      rank: B
