@@ -31,6 +31,10 @@ class ScrapperTest < Test::Unit::TestCase
     puts data
   end
 
+  def test_get_dates_for_pldi
+    puts get_dates_for_latest('https://conf.researchr.org/series/pldi')
+
+  end
 
   def test_get_dates_for_latest
     dates = get_dates_for_latest('https://conf.researchr.org/series/ICOOOLPS')
