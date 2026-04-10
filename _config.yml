@@ -74,19 +74,19 @@ deadlines:
       # call: https://2019.programming-conference.org/track/programming-2019-papers
       url: https://programming-journal.org/timeline/
       rank: B
-      Paper: 2025-10-01
-      Notification: 2025-12-01
-      Camera Ready: 2026-01-22
-      Event: 2026-03-18
+      Paper: 2026-10-01
+      Notification: 2026-12-01
+      Camera Ready: 2027-01-22
+      Event: 2027-03-18
 
     "<Programming> Issue 2":
       # call: https://2019.programming-conference.org/track/programming-2019-papers
       url: https://programming-journal.org/timeline/
       rank: B
-      Paper: 2026-02-01
-      Notification: 2026-04-01
-      Camera Ready: 2026-05-22
-      Event: 2026-03-18
+      Paper: 2027-02-01
+      Notification: 2027-04-01
+      Camera Ready: 2027-05-22
+      Event: 2027-03-18
 
     "<Programming> Issue 3":
       # call: https://2019.programming-conference.org/track/programming-2019-papers
@@ -95,18 +95,22 @@ deadlines:
       Paper: 2026-06-01
       Notification: 2026-08-01
       Camera Ready: 2026-09-22
-      Event: 2026-03-18
+      Event: 2027-03-18
 
     "ICSE'26":
       call: https://conf.researchr.org/track/icse-2026/icse-2026-research-track
+      rank: A
+
+    "ICSE'27":
+      call: https://conf.researchr.org/track/icse-2027/icse-2027-research-track
       rank: A
 
     "ICFP'26":
       call: https://icfp26.sigplan.org/track/icfp-2026-icfp-papers
       rank: A
 
-    "Onward!'25":
-      call: https://2025.splashcon.org/track/splash-2025-Onward-papers
+    "Onward!'26":
+      call: https://2026.splashcon.org/track/splash-2026-onward--papers
       rank: B
 
     MPLR:
@@ -118,33 +122,47 @@ deadlines:
       # Camera Ready: 2024-10-05
       # Event:        2024-11-04
 
-    EuroSys-Spring:
+    EuroSys26-Spring:
       url: https://2026.eurosys.org/
       rank: A
       Paper: 2025-05-08
       Notification: 2025-08-22
       Event: 2026-04-27
-    
-    EuroSys-Autumn:
+
+    EuroSys26-Autumn:
       url: https://2026.eurosys.org/
       rank: A
       Paper: 2025-09-18
       Notification: 2026-01-30
       Event: 2026-04-27
 
+    EuroSys27-Spring:
+      url: https://2027.eurosys.org/
+      rank: A
+      Paper: 2026-05-14
+      Notification: 2025-08-21
+      Event: 2027-04-19
+
+    EuroSys27-Autumn:
+      url: https://2027.eurosys.org/
+      rank: A
+      Paper: 2026-09-17
+      Notification: 2027-01-29
+      Event: 2027-04-19
+
     ASPLOS-Spring:
-      url: https://www.asplos-conference.org/asplos2026/
+      url: https://www.asplos-conference.org/asplos2027/
       rank: A
-      Paper: 2025-03-12
-      Notification: 2025-06-24
-      Event: 2026-03-22
-    
+      Paper: 2026-04-15
+      Notification: 2026-07-27
+      Event: 2027-04-11
+
     ASPLOS-Summer:
-      url: https://www.asplos-conference.org/asplos2026/
+      url: https://www.asplos-conference.org/asplos2027/
       rank: A
-      Paper: 2025-08-20
-      Notification: 2025-11-24
-      Event: 2026-03-22
+      Paper: 2026-09-09
+      Notification: 2026-12-21
+      Event: 2027-04-11
 
     CGO:
       call: https://2026.cgo.org/track/cgo-2026-papers
@@ -155,5 +173,5 @@ deadlines:
       rank: B
 
     ISMM:
-      call: https://conf.researchr.org/home/ismm-2025
+      call: https://conf.researchr.org/home/ismm-2026
       rank: B
